@@ -20,23 +20,24 @@
         android:text="@string/textview_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/button_portfolio_margin"
         android:id="@+id/portfolioTitle"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingTop="4dp"
-        android:paddingBottom="20dp"
-        android:textSize="20sp"
+        android:paddingLeft="@dimen/textview_title_left_padding"
+        android:paddingRight="@dimen/textview_title_right_padding"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:textSize="@dimen/textview_title_text_size"
         android:textStyle="normal|bold"/>
     <Button
         android:text="@string/btn_popular_movies"
         android:layout_height="wrap_content"
         android:id="@+id/buttonPopularMovies"
         android:background="@color/buttonBackground"
-        android:layout_width="250dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/button_portfolio_width"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:layout_marginTop="@dimen/button_portfolio_margin"
+        android:onClick="displayToast"
         />
 
     <Button
@@ -44,50 +45,55 @@
         android:layout_height="wrap_content"
         android:id="@+id/buttonStockHawk"
         android:background="@color/buttonBackground"
-        android:layout_width="250dp"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp" />
+        android:layout_width="@dimen/button_portfolio_width"
+        android:layout_marginTop="@dimen/button_portfolio_margin"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:onClick="displayToast" />
 
     <Button
         android:text="@string/btn_build_it_better"
-        android:layout_width="250dp"
+        android:layout_width="@dimen/button_portfolio_width"
         android:layout_height="wrap_content"
         android:id="@+id/buttonBuildItBetter"
         android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp" />
+        android:layout_marginTop="@dimen/button_portfolio_margin"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:onClick="displayToast" />
 
     <Button
         android:text="@string/btn_make_app_material"
-        android:layout_width="250dp"
+        android:layout_width="@dimen/button_portfolio_width"
         android:layout_height="wrap_content"
         android:id="@+id/buttonMakeAppMaterial"
         android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp" />
+        android:layout_marginTop="@dimen/button_portfolio_margin"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:onClick="displayToast" />
 
     <Button
         android:text="@string/btn_go_ubiquitous"
-        android:layout_width="250dp"
+        android:layout_width="@dimen/button_portfolio_width"
         android:layout_height="wrap_content"
         android:id="@+id/buttonGoUbiquitous"
         android:background="@color/buttonBackground"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp"/>
+        android:layout_marginTop="@dimen/button_portfolio_margin"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:onClick="displayToast" />
 
     <Button
         android:text="@string/btn_capstone_my_app"
         android:layout_height="wrap_content"
         android:id="@+id/buttonCapstone"
         android:background="@color/buttonCapstoneBackground"
-        android:layout_width="250dp"
-        android:layout_marginTop="10dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:textStyle="normal|bold" />
+        android:layout_width="@dimen/button_portfolio_width"
+        android:layout_marginTop="@dimen/button_portfolio_margin"
+        android:paddingTop="@dimen/textview_title_top_padding"
+        android:paddingBottom="@dimen/textview_title_bottom_padding"
+        android:textStyle="normal|bold"
+        android:onClick="displayToast" />
 </LinearLayout>
 </ScrollView>

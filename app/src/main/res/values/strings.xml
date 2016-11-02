@@ -7,4 +7,5 @@
     <string name="btn_go_ubiquitous">GO UBIQUITOUS</string>
     <string name="btn_capstone_my_app">CAPSTONE MY OWN APP</string>
     <string name="textview_title">My Nanodegree Apps</string>
+    <string name="open_app">This button will launch</string>
 </resources>
